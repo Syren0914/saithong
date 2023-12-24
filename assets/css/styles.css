@@ -1,9 +1,5 @@
 /*===== GOOGLE FONTS =====*/
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 /*===== VARIABLES CSS =====*/
 :root {
@@ -19,7 +15,7 @@
   --container-color: #FFFFFF;
 
   /*========== Font and typography ==========*/
-  --body-font: 'Merriweather' , i;
+  --body-font: 'Poppins', sans-serif;
   --biggest-font-size: 2.25rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -71,7 +67,7 @@ body.dark-theme{
   --title-color: #F1F3F2;
   --text-color: #C7D1CC;
   --body-color: #111;
-  --container-color: #5454547b;
+  --container-color: #606060b3;
 }
 
 /*========== Button Dark/Light ==========*/
@@ -109,7 +105,7 @@ a{
 img{
   max-width: 100%;
   height: auto;
-  filter: drop-shadow(4px 4px 10px #b9b6b6);
+  
 }
 
 /*========== CLASS CSS ==========*/
@@ -275,6 +271,32 @@ img{
   width: 300px;
   justify-self: center;
 }
+/*========== Table ==========*/
+
+
+table{
+  margin-left: 10%;
+  margin-right: 10%;
+  
+  
+
+
+}
+th{
+  font-weight: bold;
+  border: 1px solid #FFD700;
+  border-radius: 5px;
+  text-align: center;
+}
+td{
+  border: 1px solid #FFD700;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+
+
+
 
 /*========== BUTTONS ==========*/
 .button{
