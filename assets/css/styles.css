@@ -277,21 +277,9 @@ img{
 }
 /*========== Table ==========*/
 
-
-table{
-  margin-left: 10%;
-  margin-right: 10%;
-}
-th{
-  font-weight: bold;
-  border: 1px solid #FFD700;
-  border-radius: 5px;
-  text-align: center;
-}
-td{
-  border: 1px solid #FFD700;
-  border-radius: 5px;
-  text-align: center;
+.logo{
+  width: 120px;
+  margin-top: 50px;
 }
 
 
