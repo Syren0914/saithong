@@ -319,7 +319,13 @@
             </section>
 
             <!--========== MENU ==========-->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+            <link rel="stylesheet" href="styles.css">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+
             <section class="menu section bd-container" id="menu">
+                
                 <span class="section-subtitle">Special</span>
                 <h2 class="section-title">Menu of the week</h2>
                 
@@ -327,13 +333,14 @@
                 <div class="menu__container bd-grid">
                     
                     <div class="menu__content">
-                        <img src="assets/img/plate1.png" alt="" class="menu__img">
+                        <a href="assets/img/plate1.png" data-lightbox="menu" data-title="Drunken Noodle🌶️">
+                            <img src="assets/img/plate1.png" alt="" class="menu__img">
+                        </a>
                         <h3 class="menu__name">Drunken Noodle🌶️</h3>
-                        <span class="menu__detail">Flat rice noodles, onions, Thai basil, tomatoesand
-                            bell peppers in spicy garlic sauce</span>
-                        <span class="menu__preci"></span>
+                        <span class="menu__detail">Flat rice noodles, onions, Thai basil, tomatoes, and bell peppers in spicy garlic sauce</span>
                         <a href="#menu" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
                     </div>
+            
                     
                     <div class="menu__content">
                         <img src="assets/img/plate2.png" alt="" class="menu__img">
@@ -439,6 +446,10 @@
                     
                 </div>
             </section>
+            <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+            <script src="main.js"></script>
+                        
 
             <!--===== APP =======-->
             <!-- <section class="app section bd-container">

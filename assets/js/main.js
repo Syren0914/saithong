@@ -105,3 +105,17 @@ sr.reveal(`.home__data, .home__img,
             .footer__content`, {
     interval: 200
 })
+
+// main.js
+
+// main.js
+
+lightbox.option({
+    'resizeDuration': 200,
+    'wrapAround': true,
+    'albumLabel': "Image %1 of %2",
+    'positionFromTop': 100, // Adjust this value to center the lightbox
+    'alwaysShowNavOnTouchDevices': true // Ensure navigation buttons are always shown on touch devices
+});
+
+// Additional JavaScript code for your project, if any
