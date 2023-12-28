@@ -164,7 +164,15 @@ img{
   justify-content: space-between;
   align-items: center;
 }
-
+.lb-close {
+  position: absolute;
+  top: 0px;
+  right:300px;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 9999;
+}
 
 @media screen and (max-width: 768px){
   .nav__menu{
