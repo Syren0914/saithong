@@ -240,7 +240,7 @@ img{
   justify-content: center;
   align-items: center;
   padding: .3rem;
-  background: rgba(6,156,84,.5);
+  background: #FFD700;
   border-radius: .4rem;
   z-index: var(--z-tooltip);
   transition: .4s;
